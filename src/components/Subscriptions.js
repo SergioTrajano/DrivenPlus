@@ -22,7 +22,7 @@ function Subscriptions() {
     )
     promisse.then((response) => setPlans(response.data))
     promisse.catch(() => alert('Erro no servidor!'))
-  }, [])
+  })
 
   function plan() {
     return plans.map((plann, i) => (

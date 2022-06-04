@@ -53,12 +53,12 @@ function Login() {
             </form>
             <Link to="/sign-up">
                 Não possuí uma conta? Cadastre-se
-            </Link>
+        </Link>
         </Container>
     )
 }
 
-export default Login;
+export default Login
 
 const Container = styled.div`
     width: 100vw;
